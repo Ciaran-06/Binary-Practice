@@ -43,6 +43,7 @@ function game() {
 
     if (guess == ("00000000" + num.toString(2)).substr(-8)) {
         alert("You Win!");
+        init();
     } else {
         alert("You Lose!");
     }
