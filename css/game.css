@@ -26,21 +26,11 @@ input {
     background-color: black;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../imgs/circuitBoard.svg");
-    background-color: black;
-}
-
 .input {
     width: 100vw;
     height: 100vh;
     display: flex;
+    background-image: url("../imgs/circuitBoard.svg");
     flex-direction: row;
     align-items: center;
     justify-content: center;
